@@ -1,0 +1,69 @@
+body{
+   
+   color: rgb(39, 38, 38);
+    background-color: hsl(225, 100%, 94%);
+    letter-spacing: 1px;
+    line-height: 20px;
+}
+#summary{
+    background-color: white;
+    max-width: 500px;
+    border-radius: 15px;
+    margin: auto;
+    overflow: hidden;
+    padding-bottom: 30px;
+    
+}
+#first_img{
+   
+    width: 100%;
+    border-radius: 10px;
+    margin: 0;
+    padding: 0px;
+    display: block;
+    
+}
+.intro,.plan,.btn{
+    text-align: center;
+    max-width: 300px;
+    margin: auto;
+}
+.plan{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: hsl(225, 100%, 98%);
+}
+.first_btn{
+    background-color: hsl(245, 75%, 52%);
+    padding: 10px 0 ;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.second_btn{
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px 0 ;
+    width: 100%;
+    border-radius: 10%;
+    border: 0;
+    font-size: 15px;
+    
+}
+
+.first_btn:hover{
+    background-color: rgb(7, 7, 103);
+    
+}
+#content{
+    padding: 30px;
+}
+.plan div{
+    line-height: 3px;
+}
