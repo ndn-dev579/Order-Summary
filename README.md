@@ -15,6 +15,9 @@ The checkout page displays an order summary for an annual subscription plan to a
 ## Screenshot
 ![Checkout Preview](Order_Summary_preview.png)
 
+## Live Demo
+Check out the live version [here]( https://ndn-dev579.github.io/Order-Summary/)
+
 ## Implementation Details
 - HTML/CSS for layout and styling
 - Responsive design for cross-device compatibility
