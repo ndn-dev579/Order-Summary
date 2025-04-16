@@ -34,7 +34,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: hsl(225, 100%, 98%);
+    background-color: hsl(227, 41%, 93%);
+    padding: 5px 15px;
+    border-radius: 20px;
 }
 .first_btn{
     background-color: hsl(245, 75%, 52%);
@@ -46,19 +48,27 @@ body{
     margin-bottom: 10px;
     font-size: 15px;
     font-weight: bold;
+    
 }
 .second_btn{
     background-color: hsl(0, 0%, 100%);
     padding: 10px 0 ;
     width: 100%;
-    border-radius: 10%;
+    border-radius: 10px;
     border: 0;
     font-size: 15px;
     
 }
 
+
 .first_btn:hover{
     background-color: rgb(7, 7, 103);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    
+}
+.second_btn:hover{
+    background-color: rgb(211, 211, 212);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     
 }
 #content{
